@@ -1,0 +1,135 @@
+/* unvisited link */
+a:link {
+    color: #f4f4f4;
+}
+
+/* visited link */
+a:visited {
+    color: #003333;
+}
+
+/* mouse over link */
+a:hover {
+    color: #f4f4f4;
+    
+}
+
+/* selected link */
+a:active {
+    color: #00f;
+    
+}
+
+* {
+    font-family: sans-serif, verdana, monospace;
+}
+    
+html,body {
+		   
+		   
+		    background:black;
+		   
+                    -webkit-background-size: cover; /* For WebKit*/
+                    -moz-background-size: cover;    /* Mozilla*/
+                    -o-background-size: cover;      /* Opera*/
+                    background-size: cover;         /* Generic*/
+                    
+                    
+        }
+        #main_header {
+
+            background: black;
+            margin-left: 170px;
+            margin-right: -10px;
+            margin-top:-10px;fit:
+	    
+        }
+	img.m_experts {
+                width: 700px;
+                height: 125px;
+                
+            }
+        h1 {
+            color: white;
+            text-decoration: underline;
+        }
+	.side_topics {
+	    	color: #d6d6d6;
+		text-shadow: 0 1px 0 white;
+		font-family: helvetica, arial;
+		font-size: 30px;
+
+	}
+        #wrapper {
+            border-bottom: solid;
+            color: white;
+	    background-image: url(imgs/dbbackground.jpg);            
+	    background-repeat: no-repeat;
+            margin-left: 170px;
+            margin-right: -10px;
+            margin-top: -30px;
+            height: 615px;
+	    padding: 25px;
+	    padding-left: 38px;
+	    background-repeat: no-repeat;
+	}
+            nav ul {
+                display: list-item;
+                right: 500px;
+                top: 4px;
+		list-style-type: none;
+                
+            }
+            nav ul li {
+                display: inline-block;
+                margin: 0;
+                font-size: larger;
+		font-weight: bolder;
+                border: solid;
+                background-color: #bd0e36;
+                padding: 5px 50px;
+		list-style-type: none;
+            }
+
+    
+           #left_col {
+                background:url(imgs/nebula-blues.jpg);
+                position: absolute;
+                top: 0px;
+                left: 0px;
+                width: 200px;
+                height: 780px;
+		color: white;
+                text-align: center;
+		border: groove black ;
+            }
+            footer {
+                text-align: left;
+                position: absolute;
+		bottom: -75px;
+		color:#f4f4f4;
+		
+	    }
+
+
+fieldset { border:1px solid white;
+margin-right: 600px;
+margin-left: 15px;
+}
+
+legend {
+  padding: 0.2em 0.5em;
+  border:1px solid white;
+  text-align:left;
+  }
+
+form {
+    background-color:transparent;
+    text-align: left;
+    overflow: hidden;
+    margin: 1px;
+}
+
+.hover {
+    visibility: hidden;
+}

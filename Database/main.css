@@ -1,0 +1,179 @@
+/* unvisited link */
+a:link {
+    color: #f4f4f4;
+}
+
+/* visited link */
+a:visited {
+    color: #003333;
+}
+
+/* mouse over link */
+a:hover {
+    color: #f4f4f4;
+    
+}
+
+/* selected link */
+a:active {
+    color: #00f;
+    
+}
+
+* {
+    font-family: sans-serif, verdana, monospace;
+}
+    
+html,body {
+		background-repeat: no-repeat;
+		background-attachment:fixed;
+		background-size: cover;
+		background-image: url(imgs/dbbackground.jpg);            
+		   
+		   
+                    -webkit-background-size: cover; /* For WebKit*/
+                    -moz-background-size: cover;    /* Mozilla*/
+                    -o-background-size: cover;      /* Opera*/
+                    background-size: cover;         /* Generic*/
+                    
+        }
+        #main_header {
+
+            background: black;
+            margin-left: 170px;
+            margin-right: -10px;
+            margin-top:-10px;
+	    
+        }
+	img.m_experts {
+                width: 700px;
+                height: 125px;
+                
+            }
+	img.m_symbol{
+	    height: 75px;
+	    width: 75px;
+	  
+	    
+	}
+        h1 {
+            color: white;
+            text-decoration: underline;
+        }
+	#intro {
+	    color: #0098E8;
+	}
+	.side_topics {
+	    	color: #d6d6d6;
+		text-shadow: 0 1px 0 white;
+		font-family: helvetica, arial;
+		font-size: 30px;
+
+	}
+        #wrapper {
+            color: white; 
+            margin-left: 170px;
+            margin-right: -10px;
+            margin-top: -30px;
+            height: 615px;
+	    padding: 25px;
+	    padding-left: 38px;
+	}
+	#wrapper2 {
+	    background: rgba(54,54,54, .9);
+	    margin-top: 40px;
+	    margin-right: 125px ;
+	    margin-left: 80px;
+	    margin-bottom: 0;
+	    padding: 50px;
+	    border: double;
+	    border-color: #0098E8;
+	    /*border-color: #bd0e36;*/
+	}
+	#wrapper3 {
+	    background: rgba(54,54,54, .9);
+	    margin: 40px 0 0 0;
+	    padding: 50px 0 50px 15px;
+	    border: double;
+	    border-color: #0098E8;
+	    /*border-color: #bd0e36;*/
+	    font-size: medium;
+	}
+	#dataapptwrapper {
+	    background: rgba(54,54,54, .9);
+	    margin: 40px 0 0 0;
+	    padding: 50px 0 50px 15px;
+	    border: double;
+	    border-color: #0098E8;
+	    /*border-color: #bd0e36*/
+	    font-size: medium;
+	    width: 1265px;
+	}
+            nav ul {
+                display: list-item;
+                right: 500px;
+                top: 4px;
+		list-style-type: none;
+                
+            }
+            nav ul li {
+                display: inline-block;
+                margin: 0;
+                font-size: larger;
+		font-weight: bolder;
+                border: solid;
+		background-color: #0098E8;
+                /*background-color: #bd0e36;-->*/
+                padding: 5px 50px;
+		list-style-type: none;
+            }
+
+    
+           #left_col {
+                background:url(imgs/nebula-blues.jpg);
+                position: absolute;
+                top: 0px;
+                left: 0px;
+                width: 200px;
+                height: 780px;
+		color: white;
+                text-align: center;
+		border: groove black ;
+            }
+            footer {
+                text-align: left;
+                position: absolute;
+		bottom: -75px;
+		color:#f4f4f4;
+		
+	    }
+
+
+fieldset { border:1px solid white;
+margin-right: 600px;
+margin-left: 15px;
+}
+
+legend {
+  padding: 0.2em 0.5em;
+  border:1px solid white;
+  text-align:left;
+  font-size: x-large;
+  background: black;
+  color: white;
+  }
+
+form {
+    font-size: large;
+    background-color:transparent;
+    text-align: left;
+    overflow: hidden;
+    padding:15px 0 15px 15px;
+    margin: 1px;
+    border: dashed;
+    width: 100%;
+}
+
+.hover {
+    visibility: hidden;
+}
